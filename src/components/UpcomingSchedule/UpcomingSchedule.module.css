@@ -1,4 +1,4 @@
-.scheduleContainer {
+/* .scheduleContainer {
   background-color: #f5f7fb;
   padding: 1.5rem;
   border-radius: 12px;
@@ -74,7 +74,7 @@
 }
 
 /* Responsive Design */
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .scheduleContainer {
     padding: 1rem;
     max-width: 100%;
@@ -136,4 +136,4 @@
     width: 16px;
     height: 16px;
   }
-}
+} */ 

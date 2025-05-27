@@ -15,9 +15,9 @@ const AnatomySection = () => {
         <div
           key={index}
           className={styles.indicator}
-          style={{ top: item.position.top, left: item.position.left }}
+          style={{ top: item.position.top, left: item.position.left,  }}
         >
-          <span style={{ color: item.color }}>{item.name}</span>
+          <span style={{ backgroundColor: item.color }}>{item.name}</span>
         </div>
       ))}
     </div>

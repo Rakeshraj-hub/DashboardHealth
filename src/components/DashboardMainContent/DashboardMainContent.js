@@ -2,7 +2,7 @@ import React from "react";
 import AnatomySection from "../AnatomySection/AnatomySection";
 import HealthStatusCards from "../HealthStatusCards/HealthStatusCards";
 import CalendarView from "../CalendarView/CalendarView";
-import UpcomingSchedule from "../UpcomingSchedule/UpcomingSchedule";
+// import UpcomingSchedule from "../UpcomingSchedule/UpcomingSchedule";
 import ActivityFeed from "../ActivityFeed/ActivityFeed";
 import styles from "./DashboardMainContent.module.css";
 
@@ -18,7 +18,7 @@ const DashboardMainContent = () => {
         <div className={styles.rightColumn}>
           
           <CalendarView />
-          <UpcomingSchedule />
+          {/* <UpcomingSchedule /> */}
         </div>
       </div>
       <div className={styles.activitySection}>

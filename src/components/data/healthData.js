@@ -7,7 +7,7 @@ const healthIndicators = [
   {
     name: "Healthy Heart",
     position: { top: "30%", left: "50%" },
-    color: "#ff6f61", 
+    color: "#4a90e2", 
   },
   // {
   //   name: "Teeth",
@@ -17,13 +17,13 @@ const healthIndicators = [
   {
     name: "Healthy Leg",
     position: { top: "60%", left: "30%" },
-    color: "#ffb300", 
+    color: "#a3c6ff", 
   },
-  {
-    name: "Bone",
-    position: { top: "70%", left: "50%" },
-    color: "#4a90e2", 
-  },
+  // {
+  //   name: "Bone",
+  //   position: { top: "70%", left: "50%" },
+  //   color: "#4a90e2", 
+  // },
 ];
 
 export default healthIndicators;

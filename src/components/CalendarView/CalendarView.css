@@ -1,0 +1,11 @@
+.calenderconatiner{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+
+}
+.cardalign{
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+}
