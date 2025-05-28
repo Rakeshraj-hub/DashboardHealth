@@ -1,13 +1,41 @@
 import React from "react";
 import Card from "../Card";
 import { TbDental } from "react-icons/tb";
-import { ICON_SIZE, ICON_COLOR, CARD_COLOR } from "../constant";
+import { ICON_SIZE, ICON_COLOR, CARD_COLOR } from "../calenderData"; /*importing color data and icons from calenderData */
 import "./CalendarView.css";
+import muscle from "../assets/muscle2.jpg";
+import injection from "../assets/injection.png";
+import heart from "../assets/heart2.png";
+import eye from "../assets/eye3.jpg";
+import doc from "../assets/doc2.jpg";
 import Customcalender from "../Customcalender";
 const CalendarView = () => {
+  const MuscleIcon = () => (
+    <img src={muscle} alt="muscle" className='icon' />
+    
+  );
+
+  const InjectionIcon = () => (
+    <img src={injection} alt="injection" className='icon' />
+    
+  );
+
+  const EyeIcon = () => (
+    <img src={eye} alt="eye" className='icon' />
+    
+  );
+
+  const HeartIcon = () => (
+    <img src={heart} alt="heart" className='icon' />
+    
+  );
+  const DocIcon = () => (
+    <img src={doc} alt="doctor" className='icon' />
+    
+  );
   return (
     <div className="calenderconatiner">
-      <Customcalender/>
+      <Customcalender/>  
       <div className="cardalign">
         <Card
           doctype="Dentist"
@@ -20,27 +48,27 @@ const CalendarView = () => {
         <Card
           doctype="Physiotherapy Appointment"
           time="11:00 - 12:00"
-          docname="Dr. Kelvin Williamson"
-          icon={<TbDental size={ICON_SIZE} />}
+          docname="Dr. Kevin Djones"
+          icon=<MuscleIcon/>
           color={CARD_COLOR}
           textColor="black"
         />
       </div>
-      <span style={{fontWeight:'bold'}}>The Upcomeing scheduled</span>
+      <span style={{fontWeight:'bold'}}>The Upcomeing Schedules</span>
       <span style={{color:'grey'}}>On Thursday</span>
       <div className="cardalign">
         <Card
-          doctype="Health checkup complete"
+          doctype="Health Checkup Complete"
           time="11:00 AM"
-          // docname="Dr. Cameron Williamson"
-          icon={<TbDental size={ICON_SIZE} />}
+          
+          icon={<InjectionIcon />}
           color={CARD_COLOR}
         />
         <Card
           doctype="Opthalmologist"
           time="14 pm"
-          // docname="Dr. Kelvin Williamson"
-          icon={<TbDental size={ICON_SIZE} />}
+          
+          icon={<EyeIcon />}
           color={CARD_COLOR}
         />
       </div>
@@ -49,15 +77,15 @@ const CalendarView = () => {
         <Card
           doctype="Cardiologist"
           time="12:00 AM"
-          // docname="Dr. Cameron Williamson"
-          icon={<TbDental size={ICON_SIZE} />}
+          
+          icon={<HeartIcon />}
           color={CARD_COLOR}
         />
         <Card
           doctype="Neurologist"
           time="16:00 PM"
-          // docname="Dr. Kelvin Williamson"
-          icon={<TbDental size={ICON_SIZE} />}
+          
+          icon={<DocIcon />}
           color={CARD_COLOR}
         />
       </div>

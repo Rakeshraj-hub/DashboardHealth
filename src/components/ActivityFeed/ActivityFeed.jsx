@@ -10,7 +10,7 @@ function ActivityFeed() {
     { data: [1, 2, 3, 1, 3, 2, 4], color: "#a3c6ff" },
   ];
 
-  const maxHeight = 5; // Maximum value for scaling the bars
+  const maxHeight = 5; 
 
   return (
     <div className={styles.activityContainer}>

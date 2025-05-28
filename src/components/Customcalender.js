@@ -1,6 +1,6 @@
 import React from "react";
 import "./Customcalender.css";
-import { CALENDER_DATA } from "./constant";
+import { CALENDER_DATA } from "./calenderData";
 
 const Customcalender = () => {
   function customColor(date, time) {

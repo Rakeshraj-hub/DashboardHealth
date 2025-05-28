@@ -1,10 +1,10 @@
 .activityContainer {
-  background-color: #f5f7fb;
-  padding: 1.5rem;
+  background-color: #666;
+  padding: 1rem;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   width: 100%;
-  max-width: 600px;
+  max-width: 300px;
   margin: 0 auto;
 }
 
@@ -53,13 +53,13 @@
 
 .dayLabel {
   font-size: 0.75rem;
-  color: #666;
+  color: #333;
   margin-top: 0.5rem;
 }
 
 .appointmentText {
   font-size: 0.9rem;
-  color: #666;
+  color: #333;
   text-align: center;
 }
 

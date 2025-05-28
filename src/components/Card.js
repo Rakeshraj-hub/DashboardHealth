@@ -1,6 +1,6 @@
 import React from "react";
 import "./Card.css";
-import { ICON_COLOR } from "./constant";
+// import { ICON_COLOR } from "./calenderData";
 const Card = ({ doctype, time, docname,icon,color,textColor }) => {
     console.log(color,'colro')
   return (

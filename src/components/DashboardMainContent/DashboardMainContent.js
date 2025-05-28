@@ -12,17 +12,14 @@ const DashboardMainContent = () => {
       <div className={styles.gridContainer}>
         <div className={styles.leftColumn}>
           <AnatomySection />
-          <HealthStatusCards />
+          <ActivityFeed />
           
         </div>
         <div className={styles.rightColumn}>
-          
+          <HealthStatusCards />
           <CalendarView />
           {/* <UpcomingSchedule /> */}
         </div>
-      </div>
-      <div className={styles.activitySection}>
-        <ActivityFeed />
       </div>
     </main>
   );

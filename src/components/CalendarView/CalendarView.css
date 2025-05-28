@@ -9,3 +9,10 @@
     flex-direction: row;
     gap: 20px
 }
+
+.icon {
+  width: 24px;
+  height: 24px;
+  color: #666;
+  object-fit: contain; 
+}
