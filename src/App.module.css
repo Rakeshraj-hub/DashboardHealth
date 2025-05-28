@@ -11,3 +11,26 @@
   background-color: #ffffff;
   padding: 20px;
 }
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .mainContent {
+    padding: 16px; /* Slightly reduce padding on tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack sidebar and main content vertically */
+  }
+
+  .mainContent {
+    padding: 12px; /* Further reduce padding on mobile */
+  }
+}
+
+@media (max-width: 600px) {
+  .mainContent {
+    padding: 8px; /* Minimal padding on very small screens */
+  }
+}

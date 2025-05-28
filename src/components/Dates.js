@@ -1,8 +1,8 @@
 import React from "react";
-import "./Customcalender.css";
+import "./Dates.css";
 import { CALENDER_DATA } from "./calenderData";
 
-const Customcalender = () => {
+const Dates = () => {
   function customColor(date, time) {
     let backGroundColor = "";
     let color = "";
@@ -87,4 +87,4 @@ const Customcalender = () => {
   );
 };
 
-export default Customcalender;
+export default Dates;

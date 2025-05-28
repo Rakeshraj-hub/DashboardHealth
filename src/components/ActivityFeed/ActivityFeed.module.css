@@ -138,3 +138,33 @@
     font-size: 0.65rem;
   }
 }
+
+@media (max-width: 400px) {
+  .activityContainer {
+    padding: 0.5rem;
+  }
+
+  .chartWrapper {
+    height: 60px;
+  }
+
+  .bars {
+    height: 40px;
+  }
+
+  .title {
+    font-size: 0.9rem;
+  }
+
+  .appointmentText {
+    font-size: 0.7rem;
+  }
+
+  .bar {
+    width: 5px;
+  }
+
+  .dayLabel {
+    font-size: 0.6rem;
+  }
+}

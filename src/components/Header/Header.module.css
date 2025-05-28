@@ -44,7 +44,7 @@
 }
 
 .search {
-  padding: 8px 12px 8px 32px; /* Extra padding on the left for the icon */
+  padding: 8px 12px 8px 32px; 
   border: 1px solid #ddd;
   border-radius: 6px;
   font-size: 14px;
@@ -125,6 +125,10 @@
 }
 
 @media (max-width: 600px) {
+  .header {
+    padding: 8px;
+  }
+
   .logo {
     font-size: 1.2rem;
   }
@@ -136,6 +140,7 @@
   .search {
     font-size: 13px;
     padding: 6px 10px 6px 30px;
+    max-width: 250px;
   }
 
   .searchIcon {
@@ -154,5 +159,24 @@
   .addButton svg {
     width: 14px;
     height: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header {
+    padding: 6px;
+  }
+
+  .title {
+    font-size: 0.9rem;
+  }
+
+  .search {
+    max-width: 200px;
+    font-size: 12px;
+  }
+
+  .rightSection {
+    gap: 12px;
   }
 }

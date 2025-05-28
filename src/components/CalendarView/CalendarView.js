@@ -8,7 +8,7 @@ import injection from "../assets/injection.png";
 import heart from "../assets/heart2.png";
 import eye from "../assets/eye3.jpg";
 import doc from "../assets/doc2.jpg";
-import Customcalender from "../Customcalender";
+import Customcalender from "../Dates";
 const CalendarView = () => {
   const MuscleIcon = () => (
     <img src={muscle} alt="muscle" className='icon' />

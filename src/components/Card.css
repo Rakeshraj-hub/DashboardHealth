@@ -16,3 +16,44 @@
     display: flex;
     flex-direction: row;
     }
+
+    /* Responsive Design */
+@media (max-width: 1024px) {
+  .cardcontainer {
+    max-width: 180px;
+  }
+
+  .cardiv {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cardcontainer {
+    max-width: 100%;
+  }
+
+  .cardiv {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cardiv {
+    padding: 8px;
+  }
+
+  .cardalign {
+    gap: 8px;
+  }
+}
+
+@media (max-width: 400px) {
+  .cardiv {
+    padding: 6px;
+  }
+
+  .cardalign {
+    gap: 5px;
+  }
+}

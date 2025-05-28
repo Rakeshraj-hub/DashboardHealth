@@ -1,73 +1,52 @@
 import React from "react";
 import dashboard from '../assets/dashboard.png'
+import history from '../assets/history2.png'
+import calender from '../assets/calender2.jpg'
+import stat from '../assets/statistics2.jpg'
+import tool from '../assets/tool.png'
+import chat from '../assets/chat.png'
+import support from '../assets/support.png'
+import setting from '../assets/setting.png'
+
 import styles from "./Sidebar.module.css";
 
 
-// const DashboardIcon = () => (
-//   <svg className={styles.icon} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-//     {/* <rect x="3" y="3" width="7" height="7" />
-//     <rect x="14" y="3" width="7" height="7" />
-//     <rect x="3" y="14" width="7" height="7" />
-//     <rect x="14" y="14" width="7" height="7" /> */}
-//     <img src={dashboard} alt="dashboard"/>
-//   </svg>
-// );
+
  const DashboardIcon = () => (
   <img src={dashboard} alt="dashboard" className={styles.icon} />
 );
+
+ 
 const HistoryIcon = () => (
-  <svg className={styles.icon} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-    <path d="M12 8v4l3 3" />
-    <circle cx="12" cy="12" r="10" />
-  </svg>
+ <img src={history} alt="history" className={styles.icon} />
 );
 
 const CalendarIcon = () => (
-  <svg className={styles.icon} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-    <rect x="3" y="4" width="18" height="18" rx="2" />
-    <path d="M16 2v4M8 2v4M3 10h18" />
-  </svg>
+ <img src={calender} alt="calender" className={styles.icon} />
 );
 
 const AppointmentsIcon = () => (
-  <svg className={styles.icon} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-    <path d="M8 2v4M16 2v4" />
-    <rect x="3" y="4" width="18" height="16" rx="2" />
-    <path d="M3 10h18M9 14h6" />
-  </svg>
+ <img src={calender} alt="calender" className={styles.icon} />
 );
 
 const StatisticsIcon = () => (
-  <svg className={styles.icon} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-    <path d="M3 3v18h18" />
-    <path d="M7 14v4M12 10v8M17 12v6" />
-  </svg>
+  <img src={stat} alt="stat" className={styles.icon} />
 );
 
 const ToolsIcon = () => (
-  <svg className={styles.icon} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-    <path d="M14 2l-4 4 6 6 4-4-6-6zM4 14l6-6-4-4-6 6 4 4z" />
-  </svg>
+  <img src={tool} alt="tool" className={styles.icon} />
 );
 
 const ChatIcon = () => (
-  <svg className={styles.icon} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10z" />
-  </svg>
+ <img src={chat} alt="chat" className={styles.icon} />
 );
 
 const SupportIcon = () => (
-  <svg className={styles.icon} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-    <circle cx="12" cy="12" r="10" />
-    <path d="M12 16v-4m0-4h.01" />
-  </svg>
+ <img src={support} alt="support" className={styles.icon} />
 );
 
 const SettingsIcon = () => (
-  <svg className={styles.icon} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-    <circle cx="12" cy="12" r="3" />
-    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h.09a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82 1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" />
-  </svg>
+<img src={setting} alt="setting" className={styles.icon} />
 );
 
 const Sidebar = () => {
